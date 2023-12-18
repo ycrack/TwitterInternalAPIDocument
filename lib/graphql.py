@@ -29,7 +29,7 @@ def get_graphql(parsed_list: js_data) -> list:
             continue
         reg_func_init = "{func}=t\({arg}\)".format(
             func=re.escape(match_func[0].data[0]),
-            arg="([0-9]{1,5})",
+            arg="([0-9]{1,6})",
         )
         match_func_init = search_js_reg(graphql_parent, reg_func_init)
         if match_func_init == []:
@@ -56,7 +56,7 @@ def marge_exports(parsed_list: list, graphql_output: list) -> list:
     exports = search_js(parsed_list, "e.exports=")
     reg_exports = "{comma}{int}:{var}=>".format(
         comma=",?",
-        int="([0-9]{1,5})",
+        int="([0-9]{1,6})",
         var="(e|\([a-z,]*?\))",
     )
     for export in exports:
