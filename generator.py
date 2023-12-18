@@ -288,7 +288,7 @@ items.update({f"{output_dir}{FileConf.CHANGE_LOG_MD}": change_log})
 if ENV == "GithubAction":
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(REPOSITORY)
-    branch = "develop"
+    branch = "mod"
 
     for file_name in set(list(items.keys()) + list(items_backup.keys())):
         try:
