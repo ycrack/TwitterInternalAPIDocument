@@ -115,6 +115,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "places": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -5261,7 +5266,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170284736199227292",
+    "guestId": "170287411966599055",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
