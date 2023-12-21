@@ -1815,6 +1815,9 @@
       "rweb_master_detail_enabled": {
         "value": "false"
       },
+      "rweb_no_scroll_sidenav": {
+        "value": "false"
+      },
       "rweb_panning_nav_behavior": {
         "value": "true"
       },
@@ -4305,7 +4308,7 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_skip_welcome_screen": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_organizations_tiers_enabled": {
           "value": "true"
@@ -4359,6 +4362,9 @@
           "value": "true"
         },
         "rweb_master_detail_enabled": {
+          "value": "false"
+        },
+        "rweb_no_scroll_sidenav": {
           "value": "false"
         },
         "rweb_panning_nav_behavior": {
@@ -5202,10 +5208,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6e0c3958f5727b934e9dd898d4b2f151"
+      "settingsVersion": "7928d22bdcb702a6985d5ed5503350c1"
     },
     "debug": {},
-    "featureSetToken": "37fe3c6df3891ea3fd2b27b211ffb89b150db7e3",
+    "featureSetToken": "a90413a28217c6263fec68ea844068f1cbbe5839",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5275,7 +5281,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170312104701438919",
+    "guestId": "170316182566606981",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
