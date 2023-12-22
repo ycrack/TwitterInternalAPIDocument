@@ -4580,7 +4580,7 @@
           "value": "false"
         },
         "spaces_incognito_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "standardized_nudges_misinfo": {
           "value": "true"
@@ -5208,7 +5208,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "7928d22bdcb702a6985d5ed5503350c1"
+      "settingsVersion": "f7e6589e0a283f7a97429ad477db78c6"
     },
     "debug": {},
     "featureSetToken": "a90413a28217c6263fec68ea844068f1cbbe5839",
@@ -5281,7 +5281,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170316182566606981",
+    "guestId": "170320741924197577",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
